@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Toorcon 13 Badge</key>
+	<dict>
+		<key>VendorID</key>
+		<integer>65535</integer>
+		<key>ProductID</key>
+		<integer>4</integer>
+	</dict>
+	<key>Ubertooth Zero</key>
+	<dict>
+		<key>VendorID</key>
+		<real>7504</real>
+		<key>ProductID</key>
+		<integer>24576</integer>
+	</dict>
+	<key>Ubertooth One</key>
+	<dict>
+		<key>VendorID</key>
+		<real>7504</real>
+		<key>ProductID</key>
+		<integer>24578</integer>
+	</dict>
+</dict>
+</plist>

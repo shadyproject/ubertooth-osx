@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D4AA537190E14F10046E91F /* UBTUbertooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AA536190E14F10046E91F /* UBTUbertooth.m */; };
+		2DB7C5E618F2205900152076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB7C5E518F2205900152076 /* Cocoa.framework */; };
+		2DB7C5F018F2205900152076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C5EE18F2205900152076 /* InfoPlist.strings */; };
+		2DB7C5F218F2205900152076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C5F118F2205900152076 /* main.m */; };
+		2DB7C5F618F2205900152076 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C5F418F2205900152076 /* Credits.rtf */; };
+		2DB7C5F918F2205900152076 /* UBTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C5F818F2205900152076 /* UBTAppDelegate.m */; };
+		2DB7C5FC18F2205900152076 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C5FA18F2205900152076 /* MainMenu.xib */; };
+		2DB7C5FE18F2205900152076 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C5FD18F2205900152076 /* Images.xcassets */; };
+		2DB7C60518F2205900152076 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB7C60418F2205900152076 /* XCTest.framework */; };
+		2DB7C60618F2205900152076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB7C5E518F2205900152076 /* Cocoa.framework */; };
+		2DB7C60E18F2205900152076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C60C18F2205900152076 /* InfoPlist.strings */; };
+		2DB7C61018F2205900152076 /* UbertoothTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C60F18F2205900152076 /* UbertoothTests.m */; };
+		2DB7C61A18F2207700152076 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB7C61918F2207700152076 /* IOKit.framework */; };
+		2DB7C61C18F220E300152076 /* Devices.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C61B18F220E300152076 /* Devices.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB7C60718F2205900152076 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB7C5DA18F2205900152076 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB7C5E118F2205900152076;
+			remoteInfo = Ubertooth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D4AA535190E14F10046E91F /* UBTUbertooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBTUbertooth.h; sourceTree = "<group>"; };
+		2D4AA536190E14F10046E91F /* UBTUbertooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTUbertooth.m; sourceTree = "<group>"; };
+		2DB7C5E218F2205900152076 /* Ubertooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubertooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB7C5E518F2205900152076 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2DB7C5E818F2205900152076 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2DB7C5E918F2205900152076 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2DB7C5EA18F2205900152076 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2DB7C5ED18F2205900152076 /* Ubertooth-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ubertooth-Info.plist"; sourceTree = "<group>"; };
+		2DB7C5EF18F2205900152076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DB7C5F118F2205900152076 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2DB7C5F318F2205900152076 /* Ubertooth-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ubertooth-Prefix.pch"; sourceTree = "<group>"; };
+		2DB7C5F518F2205900152076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2DB7C5F718F2205900152076 /* UBTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UBTAppDelegate.h; sourceTree = "<group>"; };
+		2DB7C5F818F2205900152076 /* UBTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UBTAppDelegate.m; sourceTree = "<group>"; };
+		2DB7C5FB18F2205900152076 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2DB7C5FD18F2205900152076 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2DB7C60318F2205900152076 /* UbertoothTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UbertoothTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB7C60418F2205900152076 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		2DB7C60B18F2205900152076 /* UbertoothTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UbertoothTests-Info.plist"; sourceTree = "<group>"; };
+		2DB7C60D18F2205900152076 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2DB7C60F18F2205900152076 /* UbertoothTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UbertoothTests.m; sourceTree = "<group>"; };
+		2DB7C61918F2207700152076 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = System/Library/Frameworks/IOKit.framework; sourceTree = SDKROOT; };
+		2DB7C61B18F220E300152076 /* Devices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Devices.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB7C5DF18F2205900152076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C61A18F2207700152076 /* IOKit.framework in Frameworks */,
+				2DB7C5E618F2205900152076 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7C60018F2205900152076 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C60618F2205900152076 /* Cocoa.framework in Frameworks */,
+				2DB7C60518F2205900152076 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB7C5D918F2205900152076 = {
+			isa = PBXGroup;
+			children = (
+				2DB7C5EB18F2205900152076 /* Ubertooth */,
+				2DB7C60918F2205900152076 /* UbertoothTests */,
+				2DB7C5E418F2205900152076 /* Frameworks */,
+				2DB7C5E318F2205900152076 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DB7C5E318F2205900152076 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C5E218F2205900152076 /* Ubertooth.app */,
+				2DB7C60318F2205900152076 /* UbertoothTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB7C5E418F2205900152076 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C61918F2207700152076 /* IOKit.framework */,
+				2DB7C5E518F2205900152076 /* Cocoa.framework */,
+				2DB7C60418F2205900152076 /* XCTest.framework */,
+				2DB7C5E718F2205900152076 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2DB7C5E718F2205900152076 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C5E818F2205900152076 /* AppKit.framework */,
+				2DB7C5E918F2205900152076 /* CoreData.framework */,
+				2DB7C5EA18F2205900152076 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2DB7C5EB18F2205900152076 /* Ubertooth */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C5F718F2205900152076 /* UBTAppDelegate.h */,
+				2DB7C5F818F2205900152076 /* UBTAppDelegate.m */,
+				2DB7C5FA18F2205900152076 /* MainMenu.xib */,
+				2DB7C5FD18F2205900152076 /* Images.xcassets */,
+				2DB7C5EC18F2205900152076 /* Supporting Files */,
+				2DB7C61B18F220E300152076 /* Devices.plist */,
+				2D4AA535190E14F10046E91F /* UBTUbertooth.h */,
+				2D4AA536190E14F10046E91F /* UBTUbertooth.m */,
+			);
+			path = Ubertooth;
+			sourceTree = "<group>";
+		};
+		2DB7C5EC18F2205900152076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C5ED18F2205900152076 /* Ubertooth-Info.plist */,
+				2DB7C5EE18F2205900152076 /* InfoPlist.strings */,
+				2DB7C5F118F2205900152076 /* main.m */,
+				2DB7C5F318F2205900152076 /* Ubertooth-Prefix.pch */,
+				2DB7C5F418F2205900152076 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2DB7C60918F2205900152076 /* UbertoothTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C60F18F2205900152076 /* UbertoothTests.m */,
+				2DB7C60A18F2205900152076 /* Supporting Files */,
+			);
+			path = UbertoothTests;
+			sourceTree = "<group>";
+		};
+		2DB7C60A18F2205900152076 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2DB7C60B18F2205900152076 /* UbertoothTests-Info.plist */,
+				2DB7C60C18F2205900152076 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DB7C5E118F2205900152076 /* Ubertooth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB7C61318F2205900152076 /* Build configuration list for PBXNativeTarget "Ubertooth" */;
+			buildPhases = (
+				2DB7C5DE18F2205900152076 /* Sources */,
+				2DB7C5DF18F2205900152076 /* Frameworks */,
+				2DB7C5E018F2205900152076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ubertooth;
+			productName = Ubertooth;
+			productReference = 2DB7C5E218F2205900152076 /* Ubertooth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DB7C60218F2205900152076 /* UbertoothTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB7C61618F2205900152076 /* Build configuration list for PBXNativeTarget "UbertoothTests" */;
+			buildPhases = (
+				2DB7C5FF18F2205900152076 /* Sources */,
+				2DB7C60018F2205900152076 /* Frameworks */,
+				2DB7C60118F2205900152076 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB7C60818F2205900152076 /* PBXTargetDependency */,
+			);
+			name = UbertoothTests;
+			productName = UbertoothTests;
+			productReference = 2DB7C60318F2205900152076 /* UbertoothTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB7C5DA18F2205900152076 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = UBT;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = shadyproject;
+				TargetAttributes = {
+					2DB7C60218F2205900152076 = {
+						TestTargetID = 2DB7C5E118F2205900152076;
+					};
+				};
+			};
+			buildConfigurationList = 2DB7C5DD18F2205900152076 /* Build configuration list for PBXProject "Ubertooth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DB7C5D918F2205900152076;
+			productRefGroup = 2DB7C5E318F2205900152076 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB7C5E118F2205900152076 /* Ubertooth */,
+				2DB7C60218F2205900152076 /* UbertoothTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB7C5E018F2205900152076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C5F018F2205900152076 /* InfoPlist.strings in Resources */,
+				2DB7C5FE18F2205900152076 /* Images.xcassets in Resources */,
+				2DB7C61C18F220E300152076 /* Devices.plist in Resources */,
+				2DB7C5F618F2205900152076 /* Credits.rtf in Resources */,
+				2DB7C5FC18F2205900152076 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7C60118F2205900152076 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C60E18F2205900152076 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB7C5DE18F2205900152076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C5F918F2205900152076 /* UBTAppDelegate.m in Sources */,
+				2D4AA537190E14F10046E91F /* UBTUbertooth.m in Sources */,
+				2DB7C5F218F2205900152076 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB7C5FF18F2205900152076 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB7C61018F2205900152076 /* UbertoothTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DB7C60818F2205900152076 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB7C5E118F2205900152076 /* Ubertooth */;
+			targetProxy = 2DB7C60718F2205900152076 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DB7C5EE18F2205900152076 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7C5EF18F2205900152076 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2DB7C5F418F2205900152076 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7C5F518F2205900152076 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2DB7C5FA18F2205900152076 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7C5FB18F2205900152076 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2DB7C60C18F2205900152076 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB7C60D18F2205900152076 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DB7C61118F2205900152076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2DB7C61218F2205900152076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2DB7C61418F2205900152076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ubertooth/Ubertooth-Prefix.pch";
+				INFOPLIST_FILE = "Ubertooth/Ubertooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2DB7C61518F2205900152076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ubertooth/Ubertooth-Prefix.pch";
+				INFOPLIST_FILE = "Ubertooth/Ubertooth-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		2DB7C61718F2205900152076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ubertooth.app/Contents/MacOS/Ubertooth";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ubertooth/Ubertooth-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "UbertoothTests/UbertoothTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		2DB7C61818F2205900152076 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ubertooth.app/Contents/MacOS/Ubertooth";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ubertooth/Ubertooth-Prefix.pch";
+				INFOPLIST_FILE = "UbertoothTests/UbertoothTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DB7C5DD18F2205900152076 /* Build configuration list for PBXProject "Ubertooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB7C61118F2205900152076 /* Debug */,
+				2DB7C61218F2205900152076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB7C61318F2205900152076 /* Build configuration list for PBXNativeTarget "Ubertooth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB7C61418F2205900152076 /* Debug */,
+				2DB7C61518F2205900152076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB7C61618F2205900152076 /* Build configuration list for PBXNativeTarget "UbertoothTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB7C61718F2205900152076 /* Debug */,
+				2DB7C61818F2205900152076 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB7C5DA18F2205900152076 /* Project object */;
+}
