@@ -10,8 +10,4 @@
 
 @interface UBTAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
-
--(void)findAttachedDevice;
-
 @end

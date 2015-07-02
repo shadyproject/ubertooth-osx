@@ -14,6 +14,7 @@
 @property (nonatomic, readonly) NSNumber* vendorId;
 
 +(instancetype)findWithVendorId:(NSNumber*)vendorId andProductId:(NSNumber*)productId;
++(instancetype)findAttachedDevice;
 
 -(NSString*)firmwareRevision;
 

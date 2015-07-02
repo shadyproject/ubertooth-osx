@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2D4AA537190E14F10046E91F /* UBTUbertooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D4AA536190E14F10046E91F /* UBTUbertooth.m */; };
+		2D94EBA31B44E1F3006DD786 /* UBTWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D94EBA11B44E1F3006DD786 /* UBTWindowController.m */; };
+		2D94EBA41B44E1F3006DD786 /* UBTWindowController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D94EBA21B44E1F3006DD786 /* UBTWindowController.xib */; };
 		2DB7C5E618F2205900152076 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB7C5E518F2205900152076 /* Cocoa.framework */; };
 		2DB7C5F018F2205900152076 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2DB7C5EE18F2205900152076 /* InfoPlist.strings */; };
 		2DB7C5F218F2205900152076 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DB7C5F118F2205900152076 /* main.m */; };
@@ -36,6 +38,9 @@
 /* Begin PBXFileReference section */
 		2D4AA535190E14F10046E91F /* UBTUbertooth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBTUbertooth.h; sourceTree = "<group>"; };
 		2D4AA536190E14F10046E91F /* UBTUbertooth.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTUbertooth.m; sourceTree = "<group>"; };
+		2D94EBA01B44E1F3006DD786 /* UBTWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UBTWindowController.h; sourceTree = "<group>"; };
+		2D94EBA11B44E1F3006DD786 /* UBTWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UBTWindowController.m; sourceTree = "<group>"; };
+		2D94EBA21B44E1F3006DD786 /* UBTWindowController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UBTWindowController.xib; sourceTree = "<group>"; };
 		2DB7C5E218F2205900152076 /* Ubertooth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ubertooth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB7C5E518F2205900152076 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		2DB7C5E818F2205900152076 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -124,6 +129,9 @@
 		2DB7C5EB18F2205900152076 /* Ubertooth */ = {
 			isa = PBXGroup;
 			children = (
+				2D94EBA01B44E1F3006DD786 /* UBTWindowController.h */,
+				2D94EBA11B44E1F3006DD786 /* UBTWindowController.m */,
+				2D94EBA21B44E1F3006DD786 /* UBTWindowController.xib */,
 				2DB7C5F718F2205900152076 /* UBTAppDelegate.h */,
 				2DB7C5F818F2205900152076 /* UBTAppDelegate.m */,
 				2DB7C5FA18F2205900152076 /* MainMenu.xib */,
@@ -246,6 +254,7 @@
 				2DB7C5F018F2205900152076 /* InfoPlist.strings in Resources */,
 				2DB7C5FE18F2205900152076 /* Images.xcassets in Resources */,
 				2DB7C61C18F220E300152076 /* Devices.plist in Resources */,
+				2D94EBA41B44E1F3006DD786 /* UBTWindowController.xib in Resources */,
 				2DB7C5F618F2205900152076 /* Credits.rtf in Resources */,
 				2DB7C5FC18F2205900152076 /* MainMenu.xib in Resources */,
 			);
@@ -269,6 +278,7 @@
 				2DB7C5F918F2205900152076 /* UBTAppDelegate.m in Sources */,
 				2D4AA537190E14F10046E91F /* UBTUbertooth.m in Sources */,
 				2DB7C5F218F2205900152076 /* main.m in Sources */,
+				2D94EBA31B44E1F3006DD786 /* UBTWindowController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
